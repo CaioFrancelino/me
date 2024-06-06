@@ -39,7 +39,8 @@ body *{
 }
 
 #container {
-    width: 360px;
+    max-width: 100%;
+    width: 588px;
     margin: 56px auto;
     padding: 0 24px;
 }
