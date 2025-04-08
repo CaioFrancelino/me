@@ -145,6 +145,8 @@ body * {
 
   font-size: 1em;
   width: 100%;
+
+  font-family: "Fira Code", monospace;
 }
 
 #form input[type=submit]{
