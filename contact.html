@@ -9,8 +9,6 @@
 <body>
     <div id="form-container">
         <form id="form" action="https://formsubmit.co/kaiofrancelino007@gmail.com" method="POST">
-            <input type="hidden" name="_next" value="thanksPage.html">
-            <input type="hidden" name="_captcha" value="false">
             <p>
                 <label for="name">Nome</label>
                 <input type="text" id="name" name="name" required>
@@ -23,7 +21,7 @@
             
             <p>
                 <label for="phone">Telefone</label>
-                <input type="tel" id="phone" name="phone">
+                <input type="tel" id="phone" name="phone" required>
             </p>
             
             <p>
@@ -74,6 +72,8 @@
                 
             </p>
             <input class="full" type="submit" value="Enviar">
+            <input type="hidden" name="_next" value="thanksPage.html">
+            <input type="hidden" name="_captcha" value="false">
         </form>
         <input id="back-button" type="button" value="Voltar" onclick="window.location.href='index.html'">
     </div>
